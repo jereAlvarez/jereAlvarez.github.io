@@ -1,0 +1,35 @@
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: black;
+    padding: 0.5rem 0rem;
+}
+
+nav ul li {
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    color: white;
+    transition: 300ms all ease;
+}
+
+nav ul li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+
+    cursor: pointer;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}

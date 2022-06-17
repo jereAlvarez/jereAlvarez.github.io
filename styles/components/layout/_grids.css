@@ -1,0 +1,13 @@
+.jumbotron-grid {
+    min-height: calc(100vh, 55px);
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auyo-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+.jumbotron-grid img {
+    width: 100%;
+}
+.socialnets-grid {
+    background-color: #010176;
+}

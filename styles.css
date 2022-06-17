@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600;700&display=swap');
+@import './components/_navbar.css' ;
+@import './styles/components/layout/_grids.css';
+* {
+    font-family: 'Red Hat Text', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    max-width: 900px;
+    width: 100%;
+}
+
